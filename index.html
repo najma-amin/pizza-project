@@ -67,40 +67,28 @@
         <P id="tc">Total Cost</P>
       </div>
     </div>
-
-    <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header text-center">
-            <h4>Fill in delivery detail</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-
-          <div class="modal-body mx-3">
-            <div class="md-form mb-5">
-              <input type="text" id="name" placeholder='Your name' required>
+    <div class="container-fluid contacts">
+      <h3>Delivery details</h3>
+      <div class="container end">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6 ">
+              <label for="inputname"></label>
+              <input type="" class="form-control" id="inputname" placeholder="Name.....">
             </div>
-            <div class="md-form mb-5">
-              <input type='text' id="lpocation" placeholder="Your Location" required>
+            <div class="form-group col-md-6">
+              <label for="inputemail"></label>
+              <input type="your location" class="form-control" id="inputlocation" placeholder=" your location">
             </div>
-            <div class="md-form mb-4">
-              <input type="number" id="address" placeholder="Your Address" required>
-            </div>
-          </div>
-          <div class="modal-footer d-flex justify-content-center">
-            <button id="delivery" onclick="validate()" class="btn btn-deep-orange">Send</button>
-          </div>
-        </div>
+            
+            <textarea name="address" id="inputaddress" placeholder="address" class="form-control-transparent"></textarea>
+            
+         </form>
+         
+         <button type="send " class="btn btn-primary" onclick="validate()">send</button>
       </div>
-    </div>
-
-    <div class="text-center">
-      <a href="" id="mode" class="btn btn-default btn-rounded mb-4" data-toggle="modal"
-        data-target="#modalRegisterForm">Delivery</a>
-    </div>
+      </div>
+              
 
     <div id="contact">
       <hr>
