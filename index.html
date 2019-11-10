@@ -31,7 +31,8 @@
             <a href="#order" class="btn">Order</a>
             <a href="#" class="btn">images</a>
             <a href="#contact" class="btn">Contact</a>
-        </div>
+        
+          </div>
         <div class="container-fluid first" id="welcome">
           <div class="container">
             <h1>WELCOME<br />to pizza</h1>
@@ -81,8 +82,23 @@
               id="totalCost"
               value="Check Out!!!"
             />
-          </form>
+            <div class="modal-body mx-3">
+              <div class="md-form mb-5">
+                <input type="text" id="name" placeholder='Your name' required>
+              </div>
+              <div class="md-form mb-5">
+                <input type='text' id="lpocation" placeholder="Your Location" required>
+              </div>
+              <div class="md-form mb-4">
+                <input type="number" id="address" placeholder="Your Address" required>
+              </div>
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+              <button id="delivery" onclick="validate()" class="btn btn-deep-orange">Send</button>
+            </div>
+          </div>
         </div>
+      </div>
       </body>
     </html>
   </body>

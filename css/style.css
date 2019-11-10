@@ -1,19 +1,3 @@
-.first {
-  text-align: center;
-  background: url("../images/peri.jpg") no-repeat center center/cover;
-  width: 100%;
-  height: 100vh;
-  color: azure;
-}
-.form {
-  width: 80%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
 .topnav {
   overflow: hidden;
   background-color: black;
@@ -31,10 +15,9 @@
   display: none;
 }
 
-
-
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+  .topnav a:not(:first-child),
+  .dropdown .dropbtn {
     display: none;
   }
   .topnav a.icon {
@@ -44,7 +27,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -55,3 +40,22 @@
     display: block;
     text-align: left;
   }
+}
+
+.first {
+  text-align: center;
+  background: url("../images/peri.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+  color: black;
+  background-attachment: fixed;
+}
+.form {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
