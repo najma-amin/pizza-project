@@ -4,87 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title></title>
+    <title>pizza worl</title>
+    <link rel="stylesheet" types="text/css"href="/css/bootstrap.css"/>
+    <link rel="stylesheet" types="text/css" href="/css/style.css" />
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/main.js"></script>
+  </head>
   </head>
   <body>
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>pizza world</title>
-        <link
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossorigin="anonymous"
-        />
-        <link rel="stylesheet" types="text/css" href="/css/style.css" />
-        <script src="js/jquery-3.3.1.js"></script>
-        <script src="/js/script.js"></script>
-      </head>
-      <body> 
-        <div class="navbar">
-          <div class="topnav fixed-top" id="myTopnav">
-              <a href="#Home" class="active btn">Home</a>
-            <a href="#order" class="btn">Order</a>
-            <a href="#" class="btn">images</a>
-            <a href="#contact" class="btn">Contact</a>
-        
-          </div>
-        <div class="container-fluid first" id="welcome">
-          <div class="container">
-            <strong><em><h1>WELCOME<br />to pizza</h1></strong></em>
-            <strong><em><p>We made exactly one you craving for, fresh pizza only for you</p></em></strong>
-          </div>
-        </div>
-        <div class="container-fluid form">
-          <form>
-            <label>Pizza Size:</label>
-            <select class="form-control" id="size">
-              <option>SELECT PIZZA SIZE </option
-              ><br />
-              <option value="Large">LARGE KSH 600</option>
-              <option value="Medium">MEDIUM KSH 500</option>
-              <option value="Small">SMALL KSH 300 </option> </select
-            ><br /><br /><br /><br />
+    <div class="container-fluid sec1" >
+      <div class="container" id=ph>
+        <hi>welcome<br />to delicoius base pizza </hi>
+      </div>
+    </div>
+    <div class="forms">
+    <form>
+      <label>pizaa size</label>
+      <select class="form-control" id="size">
+        <option>select pizza</option>
+        <option value="large">large ksh 600</option>
+        <option value="medium">medium ksh 500</option>
+        <option value="small">small ksh 300</option> </select
+      ><br /><br /><br />
 
-            <label>Pizza Crust:</label>
-            <select class="form-control" id="crust">
-              <option>SELECT PIZZA CRUST </option
-              ><br />
-              <option value="Crispy">CRISPY </option>
-              <option value="Stuffed">STUFFED </option>
-              <option value="Glutten-free">GLUTEN FREE </option> </select
-            ><br /><br /><br />
+      <label>Pizza Crust:</label>
+      <select class="form-control" id="crust">
+        <option>SELECT PIZZA CRUST </option
+        ><br />
+        <option value="Crispy">CRISPY </option>
+        <option value="Stuffed">STUFFED </option>
+        <option value="Glutten-free">GLUTEN FREE </option> </select
+      ><br /><br /><br />
+      <label>Meaty Pizza Topping;</label>
+      <select class="form-control" id="meaty">
+        <option>SELECT PIZZA MEATY TOPPING </option
+        ><br />
+        <option value="Peperonni">PEPERONNI </option>
+        <option value="Sausage">SAUSAGE </option>
+        <option value="Chicken">CHICKEN </option> </select
+      ><br /><br /><br />
+      <label>Veggy Pizza Topping;</label>
+      <select class="form-control" id="veggy">
+        <option>SELECT PIZZA VEGGY TOPPING </option
+        ><br />
+        <option value="Onion">ONION </option>
+        <option value="Spinach">SPINACH </option>
+        <option value="Pineapple">PINEAPPLE </option>
+      </select>
 
-            <label>Meaty Pizza Topping;</label>
-            <select class="form-control" id="meaty">
-              <option>SELECT PIZZA MEATY TOPPING </option
-              ><br />
-              <option value="Peperonni">PEPERONNI </option>
-              <option value="Sausage">SAUSAGE </option>
-              <option value="Chicken">CHICKEN </option> </select
-            ><br /><br /><br />
+      <input type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg" id="totalCost" value="Check Out!!!">
+    </form>
+  </div>
 
-            <label>Veggy Pizza Topping;</label>
-            <select class="form-control" id="veggy">
-              <option>SELECT PIZZA VEGGY TOPPING </option
-              ><br />
-              <option value="Onion">ONION </option>
-              <option value="Spinach">SPINACH </option>
-              <option value="Pineapple">PINEAPPLE </option>
-            </select>
-            <input
-              type="submit"
-              class="btn btn-warning btn-rounded waves-effect btn-lg"
-              id="totalCost"
-              value="Check Out!!!"
-            />
-           
-    <div class="sect-4" id="textPrice">
-      <div class="pick">
+    <div class="sect-2" id="textPrice">
+      <div class="container">
         <p style="text-align: center;">PLEASE CONFIRM YOUR ORDER</p>
         <hr>
         <p id="pz">Pizza Size</p>
@@ -94,38 +67,5 @@
         <P id="tc">Total Cost</P>
       </div>
     </div>
-
-
-   
-
-          <div class="modal-body mx-3">
-            <div class="md-form mb-5">
-              <input type="text" id="name" placeholder='Your name' required>
-            </div>
-            <div class="md-form mb-5">
-              <input type='text' id="lpocation" placeholder="Your Location" required>
-            </div>
-            <div class="md-form mb-4">
-              <input type="number" id="address" placeholder="Your Address" required>
-            </div>
-          </div>
-          <div class="modal-footer d-flex justify-content-center">
-            <button id="delivery" onclick="validate()" class="btn btn-deep-orange">Send</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="text-center">
-      <a href="" id="mode" class="btn btn-default btn-rounded mb-4" data-toggle="modal"
-        data-target="#modalRegisterForm">Delivery</a>
-    </div>
-
-    <footer>
-      <h1>Pizza is awesome while its hot!</h1>
-    </footer>
-
-      </body>
-    </html>
   </body>
 </html>
