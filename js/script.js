@@ -157,7 +157,7 @@ function validate() {
     alert("insert address");
   } else {
     alert(
-      "your charges for the delivery is 200 " +
+      "your charges for the delivery is 200 dear " +
         name +
         ", " +
         "Thank you for Your Purchase!Your order will be delivered to your location "
