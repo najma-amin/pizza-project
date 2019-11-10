@@ -8,12 +8,12 @@
     <link rel="stylesheet" types="text/css"href="/css/bootstrap.css"/>
     <link rel="stylesheet" types="text/css" href="/css/style.css" />
     <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
   </head>
   </head>
   <body>
-    <div class="container-fluid sec1" >
-      <div class="container" id=ph>
+    <div class="container-fluid sec1" id=sec1 >
+      <div class="container" >
         <hi>welcome<br />to delicoius base pizza </hi>
       </div>
     </div>
@@ -51,7 +51,7 @@
         <option value="Spinach">SPINACH </option>
         <option value="Pineapple">PINEAPPLE </option>
       </select>
-
+        <br>
       <input type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg" id="totalCost" value="Check Out!!!">
     </form>
   </div>
@@ -67,5 +67,48 @@
         <P id="tc">Total Cost</P>
       </div>
     </div>
+
+    <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4>Fill in delivery detail</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body mx-3">
+            <div class="md-form mb-5">
+              <input type="text" id="name" placeholder='Your name' required>
+            </div>
+            <div class="md-form mb-5">
+              <input type='text' id="lpocation" placeholder="Your Location" required>
+            </div>
+            <div class="md-form mb-4">
+              <input type="number" id="address" placeholder="Your Address" required>
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button id="delivery" onclick="validate()" class="btn btn-deep-orange">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <a href="" id="mode" class="btn btn-default btn-rounded mb-4" data-toggle="modal"
+        data-target="#modalRegisterForm">Delivery</a>
+    </div>
+
+    <div id="contact">
+      <hr>
+      <div class="contact">
+        <span>Tel<small>: 07001001000</small></span> <br>
+        <span>G-Mail<small>: 7squarepizza@GMAIL.COM</small></span>
+      </div>
+    </div>
+
   </body>
 </html>
