@@ -22,7 +22,7 @@
         />
         <link rel="stylesheet" types="text/css" href="/css/style.css" />
         <script src="js/jquery-3.3.1.js"></script>
-        <script src="/js/srip.js"></script>
+        <script src="/js/script.js"></script>
       </head>
       <body> 
         <div class="navbar">
@@ -82,23 +82,52 @@
               id="totalCost"
               value="Check Out!!!"
             />
-            <div class="modal-body mx-3">
-              <div class="md-form mb-5">
-                <input type="text" id="name" placeholder='Your name' required>
-              </div>
-              <div class="md-form mb-5">
-                <input type='text' id="lpocation" placeholder="Your Location" required>
-              </div>
-              <div class="md-form mb-4">
-                <input type="number" id="address" placeholder="Your Address" required>
-              </div>
+           
+    <div class="sect-4" id="textPrice">
+      <div class="pick">
+        <p style="text-align: center;">PLEASE CONFIRM YOUR ORDER</p>
+        <hr>
+        <p id="pz">Pizza Size</p>
+        <p id="cr">Crust</p>
+        <p id="mt">Meat Topping</p>
+        <p id="vt">Vegetable Topping</p>
+        <P id="tc">Total Cost</P>
+      </div>
+    </div>
+
+
+          <div class="modal-body mx-3">
+            <div class="if">
+              <h1>deivery details</h1>
+              <input type="text" id="name" placeholder='Your name' required>
             </div>
-            <div class="modal-footer d-flex justify-content-center">
-              <button id="delivery" onclick="validate()" class="btn btn-deep-orange">Send</button>
+            <div class="md-form mb-5">
+              <input type='text' id="lpocation" placeholder="Your Location" required>
             </div>
+            <div class="md-form mb-4">
+              <input type="number" id="address" placeholder="Your Address" required>
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button id="delivery" onclick="validate()" class="btn btn-primary">Send</button>
           </div>
         </div>
       </div>
+    </div>
+
+
+    <div id="contact">
+      <hr>
+      <div class="contact">
+        <span>Tel<small>: 07001001000</small></span> <br>
+        <span>G-Mail<small>: 7squarepizza@GMAIL.COM</small></span>
+      </div>
+    </div>
+
+    <footer>
+      <h1>Pizza is awesome while its hot!</h1>
+    </footer>
+
       </body>
     </html>
   </body>
