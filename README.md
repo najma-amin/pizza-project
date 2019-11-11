@@ -6,7 +6,7 @@
 
 ## Description
 
-Delani studio is a company that mainly deals with tech for companies. This includes software development to profile constructing for companies. With their improved and interative landing page, the company is able to gather and inform many of their clients on what to expect to from Delani.
+
 
 ## Setup/Installation Requirements
 
