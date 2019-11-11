@@ -2,12 +2,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url("../images/blk.jpeg");
 }
 #well {
   background-image: url("../images/67.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  color: black
+  color: black;
   height: 50vh;
 }
 .forms {
@@ -20,5 +21,5 @@ body {
   text-align: center;
 }
 .col-md-6 {
-  color: blueviolet;
+  color: white;
 }
