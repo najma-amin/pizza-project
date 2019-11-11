@@ -4,10 +4,10 @@ body {
   box-sizing: border-box;
 }
 #well {
-  background-image: url("../images/pizzxxx.jpg");
+  background-image: url("../images/67.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  color:brown;
+  color: rgb(14, 13, 13);
   height: 50vh;
 }
 .forms {
@@ -19,7 +19,6 @@ body {
 .contact {
   text-align: center;
 }
-.col-md-6{
+.col-md-6 {
   color: blueviolet;
-  
 }
