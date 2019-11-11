@@ -1,104 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>pizza worl</title>
-    <link rel="stylesheet" types="text/css"href="/css/bootstrap.css"/>
-    <link rel="stylesheet" types="text/css" href="/css/style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/copy.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/script.js"></script>
-  </head>
-  </head>
-  <body>
-    <div class="container-fluid sec1" id=sec1 >
-      <div class="container" >
-        <hi>welcome<br />to delicoius base pizza </hi>
-      </div>
-    </div>
+    <title>Document</title>
+</head>
+<body>
     <div class="container">
-    <div class="forms">
-    <form>
-      <label>pizaa size</label>
-      <select class="form-control" id="size">
-        <option>select pizza</option>
-        <option value="large">large ksh 600</option>
-        <option value="medium">medium ksh 500</option>
-        <option value="small">small ksh 300</option> </select
-      ><br /><br /><br />
-
-      <label>Pizza Crust:</label>
-      <select class="form-control" id="crust">
-        <option>SELECT PIZZA CRUST </option
-        ><br />
-        <option value="Crispy">CRISPY </option>
-        <option value="Stuffed">STUFFED </option>
-        <option value="Glutten-free">GLUTEN FREE </option> </select
-      ><br /><br /><br />
-      <label>Meaty Pizza Topping;</label>
-      <select class="form-control" id="meaty">
-        <option>SELECT PIZZA MEATY TOPPING </option
-        ><br />
-        <option value="Peperonni">PEPERONNI </option>
-        <option value="Sausage">SAUSAGE </option>
-        <option value="Chicken">CHICKEN </option> </select
-      ><br /><br /><br />
-      <label>Veggy Pizza Topping;</label>
-      <select class="form-control" id="veggy">
-        <option>SELECT PIZZA VEGGY TOPPING </option
-        ><br />
-        <option value="Onion">ONION </option>
-        <option value="Spinach">SPINACH </option>
-        <option value="Pineapple">PINEAPPLE </option>
-      </select>
-        <br>
-      <input type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg" id="totalCost" value="Check Out!!!">
-    </form>
-  </div>
-</div>
-    <div class="sect-2" id="textPrice">
-      <div class="container">
-        <p style="text-align: center;">PLEASE CONFIRM YOUR ORDER</p>
-        <hr>
-        <p id="pz">Pizza Size</p>
-        <p id="cr">Crust</p>
-        <p id="mt">Meat Topping</p>
-        <p id="vt">Vegetable Topping</p>
-        <P id="tc">Total Cost</P>
-      </div>
-    </div>
-  
-   <div class="container-fluid contacts">
-      <h3>Delivery details</h3>
-      <div class="container end">
-        <form>
-          <div class="form-row">
-            <div class="form-group col-md-6 ">
-              <label for="inputname"></label>
-              <input type="" class="form-control" id="inputname" placeholder="Name.....">
+        <div class="row">
+            <div class="col-md-12 text-center p-4" id="well">
+                    <h1>welcome<br />to delicoius base pizza </h1>
+                    <P>There's very little in my world that a foot massage and a thin-crust, everything-on-it pizza won't set right. ... </P>
             </div>
-            <div class="form-group col-md-6">
-              <label for="inputemail"></label>
-              <input type="your location" class="form-control" id="inputlocation" placeholder=" your location">
+            <div class="col-md-6">
+                    <form>
+                            <label>pizaa size</label>
+                            <select class="form-control" id="size">
+                              <option>select pizza</option>
+                              <option value="large">large ksh 600</option>
+                              <option value="medium">medium ksh 500</option>
+                              <option value="small">small ksh 300</option> </select
+                            ><br /><br /><br />
+                      
+                            <label>Pizza Crust:</label>
+                            <select class="form-control" id="crust">
+                              <option>SELECT PIZZA CRUST </option
+                              ><br />
+                              <option value="Crispy">CRISPY </option>
+                              <option value="Stuffed">STUFFED </option>
+                              <option value="Glutten-free">GLUTEN FREE </option> </select
+                            ><br /><br /><br />
+                            <label>Meaty Pizza Topping;</label>
+                            <select class="form-control" id="meaty">
+                              <option>SELECT PIZZA MEATY TOPPING </option
+                              ><br />
+                              <option value="Peperonni">PEPERONNI </option>
+                              <option value="Sausage">SAUSAGE </option>
+                              <option value="Chicken">CHICKEN </option> </select
+                            ><br /><br /><br />
+                            <label>Veggy Pizza Topping;</label>
+                            <select class="form-control" id="veggy">
+                              <option>SELECT PIZZA VEGGY TOPPING </option
+                              ><br />
+                              <option value="Onion">ONION </option>
+                              <option value="Spinach">SPINACH </option>
+                              <option value="Pineapple">PINEAPPLE </option>
+                            </select>
+                              <br>
+                            <input type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg" id="totalCost" value="Check Out!!!">
+                          </form>
+
             </div>
-            
-            <textarea name="address" id="inputaddress" placeholder="address" class="form-control-transparent"></textarea>
-            
-         </form>
-         
-         <button type="send " class="btn btn-primary" onclick="validate()">send</button>
-      </div>
-      </div>
-              
 
-    <div id="contact">
-      <hr>
-      <div class="contact">
-        <span>Tel<small>: 07001001000</small></span> <br>
-        <span>G-Mail<small>: 7squarepizza@GMAIL.COM</small></span>
-      </div>
+            <div class="col-md-6">
+                    <h3>Delivery details</h3>
+                    <div class="container end">
+                      <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6 ">
+                            <label for="inputname"></label>
+                            <input type="" class="form-control" id="inputname" placeholder="Name.....">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputemail"></label>
+                            <input type="your location" class="form-control" id="inputlocation" placeholder=" your location">
+                          </div>
+                          
+                          <textarea name="address" id="inputaddress" placeholder="address" class="form-control-transparent"></textarea>
+                          
+                       </form>
+                       
+                       <button type="send " class="btn btn-primary" onclick="validate()">send</button>
+                    </div>
+                    </div>
+        </div>
+
     </div>
-
-  </body>
+</body>
 </html>
