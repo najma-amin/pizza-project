@@ -6,7 +6,7 @@
 
 ## Description
 
-This a website application where customers order different kind pizza size with one or more toppings and request for delivery to the location their are.
+This a website application where customers order different kind pizza size with one or more toppings and request for delivery to the location their are.This project helps them receive online orders and make deliveries to the respective location.
 
 ## Setup/Installation Requirements
 
