@@ -1,4 +1,10 @@
-
+#well {
+  background-image: url(/images/pizzxxx.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  height: 50vh;
+}
 
 .forms {
   width: 50%;
