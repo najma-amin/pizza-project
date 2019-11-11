@@ -1,5 +1,5 @@
 <img src="images/screnshts.png">
-gi 
+gi
 ### PIZZA PROJECT
 
 ## Author
