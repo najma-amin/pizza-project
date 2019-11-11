@@ -1,6 +1,8 @@
-<img src="images/screnshts.png">
+<img src="images/scrn.png">
 
 ### PIZZA PROJECT
+
+# pizza world class
 
 ## Author
 
