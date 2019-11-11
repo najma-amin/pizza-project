@@ -1,4 +1,4 @@
-### DELANI STUDIO
+### PIZZA PROJECT
 
 ## Author
 
@@ -6,13 +6,12 @@
 
 ## Description
 
-
+This a website application where customers order different kind pizza size with one or more toppings and request for delivery to the location their are.
 
 ## Setup/Installation Requirements
 
 - Open terminal/command prompt.
-- git clone https://github.com/najma-amin/Delani-studio.git
-- cd myip
+- git clone https://najma-amin.github.io/pizza-project/
 - to use atom to open code type atom . or code . for visual studio.
 
 ## Known Bug
