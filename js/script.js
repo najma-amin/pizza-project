@@ -161,6 +161,7 @@ function validate() {
         name +
         ", " +
         "Thank you for Your Purchase!Your order will be delivered to your location "
-    );
+        name +
+        "," +    );
   }
 }
